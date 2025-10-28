@@ -1,0 +1,17 @@
+Windows : 
+
+set the flask enviornment 
+
+set FLASK_APP=flask_fib.py
+
+to run : 
+
+flask run 
+
+Linux : 
+
+export FLASK_APP=flask_fib.py
+
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+

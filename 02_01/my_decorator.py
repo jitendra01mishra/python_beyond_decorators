@@ -1,13 +1,14 @@
-def fib(n):
-    '''Return the nth number in the Fibonacci sequence.'''
-    if n < 2:
-        return n
-    else: 
-        return fib(n-1) + fib(n-2)
+def my_decorator(func):
+    '''Decorator function'''
+    def wrapper():
+        '''Wrapper function - Return string F-I-B-O-N-A-C-C-I'''
+        return 'F-I-B-O-N-A-C-C-I'
+    return wrapper
 
+@my_decorator
+def pfib(n):
+    '''Return Fibonacci'''
+    return 
 
-print(fib(1))
-print(fib(5))
-print(fib(8))
-
-help(fib)
+# pfib = my_decorator(pfib)
+print(pfib())

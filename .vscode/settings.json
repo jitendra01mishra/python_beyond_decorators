@@ -1,0 +1,8 @@
+{
+    // Enable Auto Save: saves files automatically after a short delay
+    "files.autoSave": "afterDelay",
+    // Delay in milliseconds before auto save triggers
+    "files.autoSaveDelay": 1000,
+    // Format files automatically when they are saved
+    "editor.formatOnSave": true
+}
